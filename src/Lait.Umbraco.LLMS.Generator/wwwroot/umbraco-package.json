@@ -1,0 +1,40 @@
+{
+  "name": "LLMs.txt Generator for Umbraco",
+  "version": "1.0.0",
+  "allowPackageTelemetry": false,
+  "extensions": [
+    {
+      "type": "dashboard",
+      "alias": "lait.dashboard.llms",
+      "name": "LLMs.txt Generator dashboard",
+      "author": "LAIT, Anders Bootsmann Overvad",
+      "js": "/App_Plugins/LaitLlms/llms-dashboard.js?v=1.0.0",
+      "elementName": "lait-llms-dashboard",
+      "weight": 13,
+      "meta": {
+        "label": "#laitLlms_dashboard",
+        "pathname": "llms-txt"
+      },
+      "conditions": [
+        {
+          "alias": "Umb.Condition.SectionAlias",
+          "match": "Umb.Section.Content"
+        }
+      ]
+    },
+    {
+      "type": "localization",
+      "alias": "lait.llms.localization.en",
+      "name": "LLMs.txt Generator: English",
+      "meta": { "culture": "en" },
+      "js": "/App_Plugins/LaitLlms/lang/en.js?v=1.0.0"
+    },
+    {
+      "type": "localization",
+      "alias": "lait.llms.localization.da",
+      "name": "LLMs.txt Generator: Danish",
+      "meta": { "culture": "da" },
+      "js": "/App_Plugins/LaitLlms/lang/da.js?v=1.0.0"
+    }
+  ]
+}

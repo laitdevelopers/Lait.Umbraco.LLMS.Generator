@@ -1,0 +1,25 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "PackageType": "Package",
+  "Category": "Search Engine Optimization",
+  "Title": "LLMs.txt Generator for Umbraco",
+  "Description": "Build your /llms.txt from the Umbraco backoffice. Editors compose it from blocks: text, headings, links to Umbraco pages or external URLs, and sections that list the pages under a node, optionally with all descendants, filtered by depth, document type, hidden pages and a page limit. One file per site/domain, follows the llmstxt.org format, live preview while editing, regenerated automatically when content is published. Dashboard in English and Danish.",
+  "LicenseTypes": [ "Free" ],
+  "Tags": [ "llms.txt", "llms", "ai", "geo", "seo", "dashboard" ],
+  "DocumentationUrl": "https://github.com/laitdevelopers/Lait.Umbraco.LLMS.Generator#readme",
+  "IssueTrackerUrl": "https://github.com/laitdevelopers/Lait.Umbraco.LLMS.Generator/issues",
+  "AuthorDetails": {
+    "Name": "LAIT",
+    "Url": "https://lait.dk",
+    "ImageUrl": "https://github.com/laitdevelopers.png",
+    "Contributors": [
+      { "Name": "Anders Bootsmann Overvad" }
+    ]
+  },
+  "PackagesByAuthor": [
+    "Lait.Umbraco.Awesome.SEO",
+    "Lait.Umbraco.UI.ScrollToField",
+    "Lait.Umbraco.Content.DragAndDrop",
+    "Lait.Umbraco.Analytics.Plausible"
+  ]
+}
